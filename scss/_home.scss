@@ -1,0 +1,27 @@
+.home{
+    height: 100%;
+    padding-top: 40vh;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    background:
+    linear-gradient(
+        to right,
+        rgba($primary-color, 1),
+        rgba($primary-color, 0.6),
+    ),
+    url(../dist/image/model-1.jpg) center top;
+    background-size: cover;
+
+    &_name{
+        font-size: 5rem;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid $secondary-color3;
+
+        &--last{
+            color: $secondary-color4;
+            font-weight: 700;
+        }
+    }
+}
